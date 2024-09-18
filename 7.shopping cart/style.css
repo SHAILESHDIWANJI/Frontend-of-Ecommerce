@@ -1,0 +1,31 @@
+body {
+  background: #dde7f0 !important;
+}
+
+.card-body {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  align-items: flex-start;
+}
+
+.card:hover {
+  transform: scale(1.02);
+  box-shadow: 0px 0px 5px rgba(0, 0, 0, 0.4);
+  transition: 0.25s;
+  cursor: pointer;
+}
+
+.main {
+  width: 90%;
+  display: block;
+  margin: 20px auto;
+}
+
+.img-carousel {
+  text-align: center !important;
+}
+.img-carousel img {
+  width: 100%;
+}
+
